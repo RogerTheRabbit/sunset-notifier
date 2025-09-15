@@ -1,0 +1,20 @@
+{
+  "name": "sunset-notifier",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RogerTheRabbit/sunset-notifier.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RogerTheRabbit/sunset-notifier/issues"
+  },
+  "homepage": "https://github.com/RogerTheRabbit/sunset-notifier#readme",
+  "description": ""
+}
