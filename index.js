@@ -11,7 +11,9 @@ fetch(
     console.log(data);
     const sunset = data.data.filter((data) => data["type"] === "sunset")[0];
     const message = `Quality: ${sunset["quality_text"]} (${sunset["quality"]})
-        Time: ${new Date(sunset["time"]).toTimeString()}`;
+        Time: ${new Date(sunset["time"]).toLocaleString("en-US", {
+          timeZone: process.env.TIMEZONE,
+        })}`;
     discord.sendMessage({
       title: "SUNSET",
       description: message,
